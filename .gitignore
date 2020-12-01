@@ -1,0 +1,5 @@
+/target
+aoc_utils/target
+aoc_utils/Cargo.lock
+input/
+.idea/
