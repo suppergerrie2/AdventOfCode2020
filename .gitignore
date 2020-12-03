@@ -1,5 +1,5 @@
 /target
-aoc_utils/target
+*/target
 aoc_utils/Cargo.lock
 input/
 .idea/
