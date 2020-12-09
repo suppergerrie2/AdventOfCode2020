@@ -17,7 +17,10 @@ pub fn read_vector_from_file<T: FromStr>(filename: &str, separator: &str) -> Opt
                 Err(..) => None
             }
         }
-        Err(..) => None
+        Err(e) => {
+            eprintln!("Error while reading from file {}", e);
+            None
+        }
     }
 }
 
